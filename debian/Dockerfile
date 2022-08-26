@@ -1,4 +1,4 @@
-FROM debian:bullseye:latest
+FROM debian:bullseye
 
 RUN apt-get -yqq update && \
     apt-get -yqq install jq curl unzip && \
